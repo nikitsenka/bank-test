@@ -1,0 +1,179 @@
+num users: 1000
+Creating summariser <summary>
+Created the tree successfully using bank-test.jmx
+Starting the test @ Fri Sep 21 12:20:58 UTC 2018 (1537532458363)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +     67 in 00:00:01 =   48.3/s Avg:    24 Min:     5 Max:    93 Err:     0 (0.00%) Active: 1 Started: 23 Finished: 22
+summary +   1484 in 00:00:30 =   49.5/s Avg:    17 Min:     5 Max:   120 Err:     0 (0.00%) Active: 1 Started: 517 Finished: 516
+summary =   1551 in 00:00:31 =   49.4/s Avg:    17 Min:     5 Max:   120 Err:     0 (0.00%)
+summary +   1449 in 00:00:29 =   49.6/s Avg:    16 Min:     5 Max:   117 Err:     0 (0.00%) Active: 0 Started: 1000 Finished: 1000
+summary =   3000 in 00:01:01 =   49.5/s Avg:    17 Min:     5 Max:   120 Err:     0 (0.00%)
+Tidying up ...    @ Fri Sep 21 12:21:59 UTC 2018 (1537532519228)
+... end of run
+num users: 2000
+Creating summariser <summary>
+Created the tree successfully using bank-test.jmx
+Starting the test @ Fri Sep 21 12:22:00 UTC 2018 (1537532520778)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +      1 in 00:00:00 =    4.1/s Avg:    13 Min:    13 Max:    13 Err:     0 (0.00%) Active: 7 Started: 7 Finished: 0
+summary +   2835 in 00:00:29 =   98.8/s Avg:    21 Min:     5 Max:   201 Err:     0 (0.00%) Active: 2 Started: 946 Finished: 944
+summary =   2836 in 00:00:29 =   98.0/s Avg:    21 Min:     5 Max:   201 Err:     0 (0.00%)
+summary +   2970 in 00:00:30 =   99.0/s Avg:    20 Min:     5 Max:   133 Err:     0 (0.00%) Active: 2 Started: 1936 Finished: 1934
+summary =   5806 in 00:00:59 =   98.5/s Avg:    21 Min:     5 Max:   201 Err:     0 (0.00%)
+summary +    194 in 00:00:02 =   98.5/s Avg:    20 Min:     5 Max:    53 Err:     0 (0.00%) Active: 0 Started: 2000 Finished: 2000
+summary =   6000 in 00:01:01 =   98.5/s Avg:    21 Min:     5 Max:   201 Err:     0 (0.00%)
+Tidying up ...    @ Fri Sep 21 12:23:01 UTC 2018 (1537532581974)
+... end of run
+num users: 3000
+Creating summariser <summary>
+Created the tree successfully using bank-test.jmx
+Starting the test @ Fri Sep 21 12:23:03 UTC 2018 (1537532583510)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +      1 in 00:00:00 =    4.1/s Avg:    12 Min:    12 Max:    12 Err:     0 (0.00%) Active: 11 Started: 11 Finished: 0
+summary +   3463 in 00:00:26 =  133.3/s Avg:   764 Min:     7 Max:  1937 Err:     0 (0.00%) Active: 179 Started: 1273 Finished: 1094
+summary =   3464 in 00:00:26 =  132.1/s Avg:   764 Min:     7 Max:  1937 Err:     0 (0.00%)
+summary +   4042 in 00:00:30 =  134.7/s Avg:  1931 Min:   538 Max:  9194 Err:     0 (0.00%) Active: 365 Started: 2754 Finished: 2389
+summary =   7506 in 00:00:56 =  133.5/s Avg:  1392 Min:     7 Max:  9194 Err:     0 (0.00%)
+summary +   1494 in 00:00:12 =  121.4/s Avg:  2818 Min:   477 Max:  5904 Err:    51 (3.41%) Active: 0 Started: 3000 Finished: 3000
+summary =   9000 in 00:01:09 =  131.3/s Avg:  1629 Min:     7 Max:  9194 Err:    51 (0.57%)
+Tidying up ...    @ Fri Sep 21 12:24:12 UTC 2018 (1537532652319)
+... end of run
+num users: 4000
+Creating summariser <summary>
+Created the tree successfully using bank-test.jmx
+Starting the test @ Fri Sep 21 12:24:13 UTC 2018 (1537532653875)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +   2232 in 00:00:16 =  140.8/s Avg:  1246 Min:    10 Max:  4464 Err:     1 (0.04%) Active: 388 Started: 1012 Finished: 624
+summary +   4321 in 00:00:30 =  144.0/s Avg:  4462 Min:  1561 Max: 11691 Err:    25 (0.58%) Active: 1108 Started: 2969 Finished: 1861
+summary =   6553 in 00:00:46 =  142.9/s Avg:  3366 Min:    10 Max: 11691 Err:    26 (0.40%)
+summary +   4175 in 00:00:30 =  139.2/s Avg:  8770 Min:  5952 Max: 15626 Err:    34 (0.81%) Active: 941 Started: 4000 Finished: 3059
+summary =  10728 in 00:01:16 =  141.4/s Avg:  5469 Min:    10 Max: 15626 Err:    60 (0.56%)
+summary +   1272 in 00:00:14 =   92.7/s Avg: 10108 Min:  3183 Max: 18582 Err:   256 (20.13%) Active: 0 Started: 4000 Finished: 4000
+summary =  12000 in 00:01:30 =  133.9/s Avg:  5961 Min:    10 Max: 18582 Err:   316 (2.63%)
+Tidying up ...    @ Fri Sep 21 12:25:43 UTC 2018 (1537532743740)
+... end of run
+num users: 5000
+Creating summariser <summary>
+Created the tree successfully using bank-test.jmx
+Starting the test @ Fri Sep 21 12:25:45 UTC 2018 (1537532745275)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +   2103 in 00:00:14 =  145.4/s Avg:  1703 Min:    10 Max:  8708 Err:     0 (0.00%) Active: 617 Started: 1141 Finished: 524
+summary +   4479 in 00:00:30 =  149.3/s Avg:  6521 Min:  2574 Max: 15912 Err:    25 (0.56%) Active: 1908 Started: 3587 Finished: 1679
+summary =   6582 in 00:00:44 =  148.0/s Avg:  4982 Min:    10 Max: 15912 Err:    25 (0.38%)
+summary +   4502 in 00:00:30 =  150.1/s Avg: 13150 Min:  9463 Max: 18851 Err:     6 (0.13%) Active: 2187 Started: 5000 Finished: 2813
+summary =  11084 in 00:01:14 =  148.9/s Avg:  8299 Min:    10 Max: 18851 Err:    31 (0.28%)
+summary +   3108 in 00:00:30 =  103.6/s Avg: 18848 Min: 16563 Max: 22956 Err:   179 (5.76%) Active: 809 Started: 5000 Finished: 4191
+summary =  14192 in 00:01:44 =  135.9/s Avg: 10609 Min:    10 Max: 22956 Err:   210 (1.48%)
+summary +    808 in 00:00:10 =   80.2/s Avg: 16813 Min: 12266 Max: 21880 Err:   312 (38.61%) Active: 0 Started: 5000 Finished: 5000
+summary =  15000 in 00:01:55 =  131.0/s Avg: 10944 Min:    10 Max: 22956 Err:   522 (3.48%)
+Tidying up ...    @ Fri Sep 21 12:27:40 UTC 2018 (1537532860071)
+... end of run
+num users: 6000
+Creating summariser <summary>
+Created the tree successfully using bank-test.jmx
+Starting the test @ Fri Sep 21 12:27:41 UTC 2018 (1537532861630)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +   2627 in 00:00:18 =  145.1/s Avg:  2666 Min:    10 Max: 10484 Err:    32 (1.22%) Active: 1130 Started: 1722 Finished: 592
+summary +   4522 in 00:00:30 =  150.7/s Avg:  9611 Min:  4939 Max: 18163 Err:    85 (1.88%) Active: 3041 Started: 4635 Finished: 1594
+summary =   7149 in 00:00:48 =  148.6/s Avg:  7059 Min:    10 Max: 18163 Err:   117 (1.64%)
+summary +   4308 in 00:00:30 =  143.6/s Avg: 19327 Min: 13714 Max: 30875 Err:     0 (0.00%) Active: 3409 Started: 6000 Finished: 2591
+summary =  11457 in 00:01:18 =  146.7/s Avg: 11672 Min:    10 Max: 30875 Err:   117 (1.02%)
+summary +   3576 in 00:00:30 =  119.2/s Avg: 26586 Min: 23142 Max: 32172 Err:     0 (0.00%) Active: 2332 Started: 6000 Finished: 3668
+summary =  15033 in 00:01:48 =  139.1/s Avg: 15219 Min:    10 Max: 32172 Err:   117 (0.78%)
+summary +   2671 in 00:00:30 =   89.0/s Avg: 28455 Min: 22323 Max: 32970 Err:   849 (31.79%) Active: 297 Started: 6000 Finished: 5703
+summary =  17704 in 00:02:18 =  128.2/s Avg: 17216 Min:    10 Max: 32970 Err:   966 (5.46%)
+summary +    296 in 00:00:04 =   80.9/s Avg: 23730 Min: 20264 Max: 26352 Err:    96 (32.43%) Active: 0 Started: 6000 Finished: 6000
+summary =  18000 in 00:02:22 =  127.0/s Avg: 17323 Min:    10 Max: 32970 Err:  1062 (5.90%)
+Tidying up ...    @ Fri Sep 21 12:30:03 UTC 2018 (1537533003659)
+... end of run
+num users: 7000
+Creating summariser <summary>
+Created the tree successfully using bank-test.jmx
+Starting the test @ Fri Sep 21 12:30:05 UTC 2018 (1537533005238)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +      1 in 00:00:00 =    3.5/s Avg:    92 Min:    92 Max:    92 Err:     0 (0.00%) Active: 28 Started: 28 Finished: 0
+summary +   3722 in 00:00:24 =  153.7/s Avg:  4267 Min:    12 Max: 12344 Err:    75 (2.02%) Active: 1984 Started: 2726 Finished: 742
+summary =   3723 in 00:00:24 =  152.0/s Avg:  4265 Min:    12 Max: 12344 Err:    75 (2.01%)
+summary +   4380 in 00:00:30 =  146.0/s Avg: 13890 Min:  7468 Max: 22829 Err:    53 (1.21%) Active: 4415 Started: 6102 Finished: 1687
+summary =   8103 in 00:00:54 =  148.7/s Avg:  9468 Min:    12 Max: 22829 Err:   128 (1.58%)
+summary +   4796 in 00:00:30 =  159.9/s Avg: 23830 Min: 19038 Max: 32491 Err:   119 (2.48%) Active: 4412 Started: 7000 Finished: 2588
+summary =  12899 in 00:01:24 =  152.7/s Avg: 14808 Min:    12 Max: 32491 Err:   247 (1.91%)
+summary +   3424 in 00:00:30 =  114.1/s Avg: 32881 Min: 27916 Max: 39041 Err:    46 (1.34%) Active: 3371 Started: 7000 Finished: 3629
+summary =  16323 in 00:01:54 =  142.6/s Avg: 18599 Min:    12 Max: 39041 Err:   293 (1.80%)
+summary +   2691 in 00:00:30 =   89.7/s Avg: 40888 Min: 37383 Max: 46983 Err:   270 (10.03%) Active: 1987 Started: 7000 Finished: 5013
+summary =  19014 in 00:02:25 =  131.6/s Avg: 21754 Min:    12 Max: 46983 Err:   563 (2.96%)
+summary +   1986 in 00:00:24 =   82.9/s Avg: 36838 Min: 25982 Max: 44751 Err:  1015 (51.11%) Active: 0 Started: 7000 Finished: 7000
+summary =  21000 in 00:02:48 =  124.7/s Avg: 23180 Min:    12 Max: 46983 Err:  1578 (7.51%)
+Tidying up ...    @ Fri Sep 21 12:32:53 UTC 2018 (1537533173953)
+... end of run
+num users: 8000
+Creating summariser <summary>
+Created the tree successfully using bank-test.jmx
+Starting the test @ Fri Sep 21 12:32:55 UTC 2018 (1537533175520)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +    590 in 00:00:04 =  140.0/s Avg:   931 Min:     9 Max:  2403 Err:     0 (0.00%) Active: 399 Started: 504 Finished: 105
+summary +   4518 in 00:00:30 =  150.6/s Avg:  7155 Min:   712 Max: 16603 Err:    36 (0.80%) Active: 3366 Started: 4347 Finished: 981
+summary =   5108 in 00:00:34 =  149.3/s Avg:  6436 Min:     9 Max: 16603 Err:    36 (0.70%)
+summary +   4637 in 00:00:30 =  154.6/s Avg: 19518 Min: 13528 Max: 27647 Err:    24 (0.52%) Active: 6164 Started: 8000 Finished: 1836
+summary =   9745 in 00:01:04 =  151.8/s Avg: 12661 Min:     9 Max: 27647 Err:    60 (0.62%)
+summary +   4801 in 00:00:30 =  160.1/s Avg: 30552 Min: 24443 Max: 39243 Err:    30 (0.62%) Active: 5341 Started: 8000 Finished: 2659
+summary =  14546 in 00:01:34 =  154.4/s Avg: 18566 Min:     9 Max: 39243 Err:    90 (0.62%)
+summary +   3268 in 00:00:30 =  108.9/s Avg: 40663 Min: 14386 Max: 49843 Err:   281 (8.60%) Active: 4325 Started: 8000 Finished: 3675
+summary =  17814 in 00:02:04 =  143.4/s Avg: 22620 Min:     9 Max: 49843 Err:   371 (2.08%)
+summary +   2726 in 00:00:30 =   90.9/s Avg: 48397 Min: 44359 Max: 69547 Err:   232 (8.51%) Active: 3130 Started: 8000 Finished: 4870
+summary =  20540 in 00:02:34 =  133.2/s Avg: 26041 Min:     9 Max: 69547 Err:   603 (2.94%)
+summary +   2470 in 00:00:30 =   82.1/s Avg: 53217 Min: 42639 Max: 84604 Err:  1191 (48.22%) Active: 988 Started: 8000 Finished: 7012
+summary =  23010 in 00:03:04 =  124.9/s Avg: 28958 Min:     9 Max: 84604 Err:  1794 (7.80%)
+summary +    990 in 00:00:12 =   82.9/s Avg: 38893 Min:  8298 Max: 107222 Err:   501 (50.61%) Active: 0 Started: 8000 Finished: 8000
+summary =  24000 in 00:03:16 =  122.3/s Avg: 29368 Min:     9 Max: 107222 Err:  2295 (9.56%)
+Tidying up ...    @ Fri Sep 21 12:36:12 UTC 2018 (1537533372024)
+... end of run
+num users: 9000
+Creating summariser <summary>
+Created the tree successfully using bank-test.jmx
+Starting the test @ Fri Sep 21 12:36:13 UTC 2018 (1537533373634)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +   2337 in 00:00:16 =  143.8/s Avg:  3552 Min:    10 Max:  9191 Err:     0 (0.00%) Active: 1805 Started: 2215 Finished: 410
+summary +   4622 in 00:00:30 =  154.9/s Avg: 12425 Min:  6269 Max: 22337 Err:    96 (2.08%) Active: 5276 Started: 6522 Finished: 1246
+summary =   6959 in 00:00:46 =  151.0/s Avg:  9445 Min:    10 Max: 22337 Err:    96 (1.38%)
+summary +   4517 in 00:00:30 =  150.6/s Avg: 27344 Min: 13326 Max: 37409 Err:   192 (4.25%) Active: 6932 Started: 9000 Finished: 2068
+summary =  11476 in 00:01:16 =  150.8/s Avg: 16490 Min:    10 Max: 37409 Err:   288 (2.51%)
+summary +   4760 in 00:00:30 =  158.7/s Avg: 37257 Min: 12460 Max: 53239 Err:   430 (9.03%) Active: 6180 Started: 9000 Finished: 2820
+summary =  16236 in 00:01:46 =  153.0/s Avg: 22579 Min:    10 Max: 53239 Err:   718 (4.42%)
+summary +   3213 in 00:00:30 =  107.1/s Avg: 41606 Min: 26742 Max: 76544 Err:   221 (6.88%) Active: 5208 Started: 9000 Finished: 3792
+summary =  19449 in 00:02:16 =  142.9/s Avg: 25722 Min:    10 Max: 76544 Err:   939 (4.83%)
+summary +   2512 in 00:00:30 =   83.7/s Avg: 53667 Min: 37406 Max: 93363 Err:   491 (19.55%) Active: 3865 Started: 9000 Finished: 5135
+summary =  21961 in 00:02:46 =  132.2/s Avg: 28918 Min:    10 Max: 93363 Err:  1430 (6.51%)
+summary +   2470 in 00:00:30 =   82.3/s Avg: 71988 Min: 51073 Max: 131165 Err:  1101 (44.57%) Active: 2014 Started: 9000 Finished: 6986
+summary =  24431 in 00:03:16 =  124.6/s Avg: 33273 Min:    10 Max: 131165 Err:  2531 (10.36%)
+summary +   2569 in 00:00:29 =   88.2/s Avg: 52783 Min:  6840 Max: 131207 Err:  1227 (47.76%) Active: 0 Started: 9000 Finished: 9000
+summary =  27000 in 00:03:45 =  119.9/s Avg: 35129 Min:    10 Max: 131207 Err:  3758 (13.92%)
+Tidying up ...    @ Fri Sep 21 12:39:59 UTC 2018 (1537533599148)
+... end of run
+num users: 10000
+Creating summariser <summary>
+Created the tree successfully using bank-test.jmx
+Starting the test @ Fri Sep 21 12:40:00 UTC 2018 (1537533600748)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +      1 in 00:00:00 =    3.8/s Avg:    87 Min:    87 Max:    87 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0
+summary +   4500 in 00:00:29 =  156.5/s Avg:  6737 Min:    14 Max: 17256 Err:    15 (0.33%) Active: 3844 Started: 4538 Finished: 694
+summary =   4501 in 00:00:29 =  155.2/s Avg:  6736 Min:    14 Max: 17256 Err:    15 (0.33%)
+summary +   4629 in 00:00:30 =  154.4/s Avg: 19448 Min: 12451 Max: 33311 Err:   217 (4.69%) Active: 7771 Started: 9236 Finished: 1465
+summary =   9130 in 00:00:59 =  154.8/s Avg: 13181 Min:    14 Max: 33311 Err:   232 (2.54%)
+summary +   4351 in 00:00:30 =  145.1/s Avg: 34962 Min:  7089 Max: 61198 Err:   423 (9.72%) Active: 7815 Started: 10000 Finished: 2185
+summary =  13481 in 00:01:29 =  151.5/s Avg: 20211 Min:    14 Max: 61198 Err:   655 (4.86%)
+summary +   4060 in 00:00:30 =  135.3/s Avg: 44585 Min: 12620 Max: 91144 Err:   139 (3.42%) Active: 6996 Started: 10000 Finished: 3004
+summary =  17541 in 00:01:59 =  147.4/s Avg: 25853 Min:    14 Max: 91144 Err:   794 (4.53%)
+summary +   2593 in 00:00:30 =   86.4/s Avg: 44571 Min: 35443 Max: 89199 Err:    17 (0.66%) Active: 6074 Started: 10000 Finished: 3926
+summary =  20134 in 00:02:29 =  135.1/s Avg: 28263 Min:    14 Max: 91144 Err:   811 (4.03%)
+summary +   2162 in 00:00:30 =   72.0/s Avg: 68234 Min: 44397 Max: 126278 Err:   541 (25.02%) Active: 4997 Started: 10000 Finished: 5003
+summary =  22296 in 00:02:59 =  124.6/s Avg: 32139 Min:    14 Max: 126278 Err:  1352 (6.06%)
+summary +   3090 in 00:00:30 =  103.1/s Avg: 105406 Min: 61532 Max: 178181 Err:  1387 (44.89%) Active: 3485 Started: 10000 Finished: 6515
+summary =  25386 in 00:03:29 =  121.5/s Avg: 41057 Min:    14 Max: 178181 Err:  2739 (10.79%)
+summary +   2784 in 00:00:30 =   92.7/s Avg: 64172 Min: 44035 Max: 140669 Err:  1089 (39.12%) Active: 1648 Started: 10000 Finished: 8352
+summary =  28170 in 00:03:59 =  117.9/s Avg: 43342 Min:    14 Max: 178181 Err:  3828 (13.59%)
+summary +   1830 in 00:00:54 =   33.9/s Avg: 30947 Min:     9 Max: 270541 Err:   980 (53.55%) Active: 0 Started: 10000 Finished: 10000
+summary =  30000 in 00:04:53 =  102.4/s Avg: 42585 Min:     9 Max: 270541 Err:  4808 (16.03%)
+Tidying up ...    @ Fri Sep 21 12:44:54 UTC 2018 (1537533894049)
+... end of run
+
