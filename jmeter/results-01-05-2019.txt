@@ -1,0 +1,64 @@
+bank-java https://github.com/nikitsenka/bank-java
+10000 Users
+PS C:\Users\Administrator> jmeter -JHOST='ec2-54-162-142-65.compute-1.amazonaws.com' -JPORT=80 -JNUM_USERS=10000 -n -t C:\Users\Administrator\bank-test\jmeter\bank-test.jmx -l results.csv
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Administrator\bank-test\jmeter\bank-test.jmx
+Starting the test @ Wed May 01 08:55:45 UTC 2019 (1556700945823)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +   5506 in 00:00:14 =  396.6/s Avg:   964 Min:     5 Max:  4450 Err:     0 (0.00%) Active: 587 Started: 2239 Finished: 1652
+summary +  15174 in 00:00:30 =  505.8/s Avg:  1200 Min:     4 Max: 11133 Err:     0 (0.00%) Active: 366 Started: 7139 Finished: 6773
+summary =  20680 in 00:00:44 =  471.3/s Avg:  1137 Min:     4 Max: 11133 Err:     0 (0.00%)
+summary +   9320 in 00:00:18 =  532.4/s Avg:   169 Min:     2 Max:  1943 Err:     0 (0.00%) Active: 0 Started: 10000 Finished: 10000
+summary =  30000 in 00:01:01 =  488.7/s Avg:   836 Min:     2 Max: 11133 Err:     0 (0.00%)
+Tidying up ...    @ Wed May 01 08:56:47 UTC 2019 (1556701007504)
+... end of run
+
+15000 Users
+PS C:\Users\Administrator> jmeter -JHOST='ec2-54-162-142-65.compute-1.amazonaws.com' -JPORT=80 -JNUM_USERS=15000 -n -t C:\Users\Administrator\bank-test\jmeter\bank-test.jmx -l results.csv
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Administrator\bank-test\jmeter\bank-test.jmx
+Starting the test @ Wed May 01 09:07:29 UTC 2019 (1556701649353)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      2 in 00:00:00 =    5.9/s Avg:   130 Min:   109 Max:   152 Err:     0 (0.00%) Active: 69 Started: 69 Finished: 0
+summary +  13230 in 00:00:30 =  441.1/s Avg:  3006 Min:     4 Max: 21593 Err:    65 (0.49%) Active: 4070 Started: 7313 Finished: 3243
+summary =  13232 in 00:00:30 =  436.2/s Avg:  3005 Min:     4 Max: 21593 Err:    65 (0.49%)
+summary +  30158 in 00:00:30 = 1005.3/s Avg:  2147 Min:     2 Max: 48847 Err: 23473 (77.83%) Active: 105 Started: 14545 Finished: 14440
+summary =  43390 in 00:01:00 =  719.2/s Avg:  2409 Min:     2 Max: 48847 Err: 23538 (54.25%)
+summary +   1610 in 00:00:02 =  759.1/s Avg:   356 Min:     6 Max:   765 Err:  1610 (100.00%) Active: 0 Started: 15000 Finished: 15000
+summary =  45000 in 00:01:02 =  720.3/s Avg:  2335 Min:     2 Max: 48847 Err: 25148 (55.88%)
+Tidying up ...    @ Wed May 01 09:08:32 UTC 2019 (1556701712136)
+... end of run
+
+
+bank-vetx https://github.com/nikitsenka/bank-vertx
+10000 Users
+PS C:\Users\Administrator> jmeter -JHOST='ec2-54-162-142-65.compute-1.amazonaws.com' -JPORT=80 -JNUM_USERS=10000 -n -t C:\Users\Administrator\bank-test\jmeter\bank-test.jmx -l results.csv
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Administrator\bank-test\jmeter\bank-test.jmx
+Starting the test @ Wed May 01 06:55:58 UTC 2019 (1556693758305)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +    623 in 00:00:01 =  445.6/s Avg:    13 Min:     2 Max:    95 Err:     0 (0.00%) Active: 17 Started: 216 Finished: 199
+summary +  14638 in 00:00:30 =  487.9/s Avg:     4 Min:     1 Max:   257 Err:     0 (0.00%) Active: 2 Started: 5088 Finished: 5086
+summary =  15261 in 00:00:31 =  486.0/s Avg:     5 Min:     1 Max:   257 Err:     0 (0.00%)
+summary +  14570 in 00:00:30 =  485.7/s Avg:     8 Min:     1 Max:    61 Err:     0 (0.00%) Active: 23 Started: 9959 Finished: 9936
+summary =  29831 in 00:01:01 =  485.9/s Avg:     6 Min:     1 Max:   257 Err:     0 (0.00%)
+summary +    169 in 00:00:00 =  427.8/s Avg:    49 Min:    37 Max:    60 Err:     0 (0.00%) Active: 0 Started: 10000 Finished: 10000
+summary =  30000 in 00:01:02 =  485.5/s Avg:     7 Min:     1 Max:   257 Err:     0 (0.00%)
+Tidying up ...    @ Wed May 01 06:57:00 UTC 2019 (1556693820395)
+... end of run
+
+15000 Users
+PS C:\Users\Administrator> jmeter -JHOST='ec2-54-162-142-65.compute-1.amazonaws.com' -JPORT=80 -JNUM_USERS=15000 -n -t C:\Users\Administrator\bank-test\jmeter\bank-test.jmx -l results.csv
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Administrator\bank-test\jmeter\bank-test.jmx
+Starting the test @ Wed May 01 07:19:35 UTC 2019 (1556695175013)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:00 =    2.8/s Avg:   114 Min:   114 Max:   114 Err:     0 (0.00%) Active: 69 Started: 69 Finished: 0
+summary +  17726 in 00:00:24 =  728.3/s Avg:    47 Min:     1 Max:   622 Err:     0 (0.00%) Active: 18 Started: 5921 Finished: 5903
+summary =  17727 in 00:00:25 =  718.0/s Avg:    47 Min:     1 Max:   622 Err:     0 (0.00%)
+summary +  18434 in 00:00:30 =  614.5/s Avg:   836 Min:     3 Max:  2522 Err:     0 (0.00%) Active: 1582 Started: 13158 Finished: 11576
+summary =  36161 in 00:00:55 =  661.2/s Avg:   449 Min:     1 Max:  2522 Err:     0 (0.00%)
+summary +   8839 in 00:00:08 = 1121.7/s Avg:  1254 Min:     3 Max:  4123 Err:  6946 (78.58%) Active: 0 Started: 15000 Finished: 15000
+summary =  45000 in 00:01:03 =  719.2/s Avg:   607 Min:     1 Max:  4123 Err:  6946 (15.44%)
+Tidying up ...    @ Wed May 01 07:20:37 UTC 2019 (1556695237880)
+... end of run
