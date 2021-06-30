@@ -7,7 +7,14 @@ then
 	exit
 fi
 
-IP=$(aws --profile dev cloudformation describe-stacks --stack-name benchmark \
+if ! test "$2"
+then
+	echo Please specify stack name
+	exit
+fi
+
+
+IP=$(aws --profile dev cloudformation describe-stacks --stack-name $2 \
 	| jq -r '.Stacks[0].Outputs[] | select(.OutputKey == "PublicIP") | .OutputValue')
 
 echo Copying test scripts to $USER@$IP
